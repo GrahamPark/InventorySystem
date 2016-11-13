@@ -1,0 +1,110 @@
+in this file I will go over the basics of the inventory system.
+
+BackPackSkin: Here you place your custom GUI skin for the inventory system.
+
+Drop Location: This is the location where your items will be dropped.
+
+
+-Inventory-
+
+	Inventory Key: The key pressed to open up the inventory.
+
+	Organize Key: The key pressed to organize the items in the backpack.
+
+	Icon Size: The size of all slots in the system.
+
+	Selected Texture: The indicator to show you which slot on the hot bar is active.
+
+	Highlighted Texture: This is the Texture that will show up when selecting a slot in the inventory.
+
+	-Backpack-
+
+		Max Width: How many slots across in the backpack.
+
+		Backpack_Backdrop: The texture placed behind the backpack.
+
+		Slot: here you set up the total number of slots in the backpack, 
+			here you can also pre-place items in the backpack
+	-Hotbar-
+
+		Hotbar_Static: If true makes it so the player can not drag the window around.
+
+		Hotbar_Offset: here you can set an offset to the current position of the hotbar.
+
+		Curr_Hotbar: This is the current items in the slots for the hotbar. 
+			you can also set how many slots there are in the hotbar here.
+
+		Hotbar_Textures(keep this at size 9): Here you can put the textures you want to 
+			show up over each slot in the hotbar.
+
+-Armour-
+	Include Armour: if true will allow you to use the armour window in game.	
+
+	Armour Static: if true does not allow you to drag the armour window around.
+	
+	Armour Offset: here you can set the offset of the current position of the armour.
+
+	Curr_Armour: the current items in each slot in the armour
+
+	Armour Textures(keep this at size 3): here you put the textures you want to put over
+		the armour slots.
+	
+
+-Stats-
+	Include Stats: if true will allow you to use the stats in game.
+	
+	Stats Position: Here you set up the position of the stats bar.
+		(TL):Top Left
+		(TR):Top Right
+		(BL):Bottom Left
+		(BR):Bottom Right
+
+	-Spawn Information-
+		
+		Respawn where placed: if true will place you back to where you started when you die.
+		
+		Remove items on death: if true will delete all items in your inventory when you die.
+		
+		Drop all items on death: if true will remove items from your inventory and drop them on the floor
+			when you die.
+
+		spawn point: if respawn where placed is false, you can manually set the spawn location.
+		
+	-Images-
+
+		Health bar: here you place the texture for the health bar
+
+		Thirst bar: here you place the texture for the thirst bar
+
+		Hunger bar: here you place the texture for the hunger bar
+
+		Stat back drop: here you place the texture for the back drop for all stat bars.
+
+	Auto deplete: if true will decrease your hunger,food,and water every deplete time.
+	
+	Deplete time: if auto depelte is true this is how long it takes to decrement the hunger, thirst, and health.
+	
+	stats labes: if true will show the number of points in each bar.
+
+	health: the starting health.
+	
+	healthDeacay: how much the health decreases every deplete time
+		(only decreases when hunger and/or thirst is 0)
+	
+	hunger: the starting hunger.
+	
+	hungerDeacay: how much the hunger decreases every deplete time.
+
+	thirst: the starting thirst.
+	
+	thirstDeacay: how much the thirst decreases every deplete time.
+				
+
+-Items-
+	
+	Pick up key: The key you press to pick up objects.
+	
+	items: the current items set up.	
+
+
+

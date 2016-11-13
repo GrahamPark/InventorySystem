@@ -1,0 +1,39 @@
+1.) place the prefab in the scene, and set the size, and colour/texture of it.
+
+2.) place the PickUp script on it(in the name slot put the name you want for this object)
+
+3.) place a sphere collider on it(set is trigger to true)
+
+4.) place a mesh collider, or any collider(to make sure the object doesnt fall throught the floor)(set trigger to false)
+
+5.) place a rigidbody on the object.
+
+6.) in the heirarchy drag the newly created object, and place it in the project window(in the prefab drop folder).
+
+7.) place the prefab in the scene area again, but this time use the game screen to position it in the place you want it in front of the camera.
+
+8.) drag this object in the heirarchy to under Player-Camera-items.
+
+9.) turn the mesh renderer off for this object.
+
+10.) in the inventory script window in the inspector, click the tab that says "Items", and add one to the current size.
+
+11.) put the name, the same as you did in step 2.
+
+12.) if the item is an armour piece set the sub type to:(helmet,chest, or boots).
+
+13.) if the item is a weapon, set the damage.
+
+14.) if it is armour, set how much it protects you.
+
+15.) in the texture spot drag and drop the icon texture you want for this object.
+
+16.) in the prefab drop spot, drag and drop the prefab created(from step 6).
+
+17.) in the In game object spot, drag and drop the GameObject(from step 8).
+
+18.) to set up actions for the item. open up the inventory system script, go all the way to the bottom where it says: Set Up Items Here.
+
+19.) in between the screenLook if statement put the if statement: if(name == "(put name of item here)"){}
+
+20.) in the brackets set up what happens when you press buttons, or clicks.

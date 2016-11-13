@@ -1,0 +1,24 @@
+1.) in the GUISkin folder, rightclick and click create-GUI skin, and name it.
+
+2.) click the newly created GUI skin.
+
+3.) click the button tab in the inspector.
+
+4.) place created textures for the idle button(Normal), and hover(Hover)
+
+5.) click on window, and place your window texture for normal, and on normal.
+
+6.) drag and drop the newly created GUI Skin onto the backpack skin slot in the inspector for the inventory.
+
+7.) place your textures for the following locations in the inventory system inspector:
+	
+	inventory - selected Texture
+	inventory - highlighted Texture
+	inventory - backpack - backpack_Backdrop
+	inventory - hotbar - hotbar_Textures(elements 0-8)
+	armour - armour Textures(elements 0-2)
+	stats - images - health bar
+	stats - images - thirst bar
+	stats - images - hunger bar
+	stats - images - stat Back Drop
+	
